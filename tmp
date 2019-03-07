@@ -1,0 +1,11 @@
+void Game::drawEntities(/* mvaddchr */) {
+  int i = this->_entities->getCout();
+  while (t_node* head = this->_entities->_heag;head;head = head->next) {
+    this->_drawE(/*mvaddchr */(Entities *)head->data);
+  }
+
+}
+
+
+
+
